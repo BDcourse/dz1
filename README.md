@@ -22,6 +22,8 @@
 ## Требования:
 - Python **3.9 или выше**
 - Установленный пакет **PyQt6**
+- фото фона ![фон](https://github.com/BDcourse/dz2/blob/main/photo_2025-10-22_18-51-26.jpg)
+- фото иконки ![иконка](https://github.com/BDcourse/dz2/blob/main/photo_2025-10-22_17-49-33.jpg)
 
 Установка:
 pip install PyQt6
