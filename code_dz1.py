@@ -15,7 +15,7 @@ class MainWindow(QWidget):
         self.show()
 
     def createImageLabels(self):
-        images = ["images/skyblue.png", "images/profile_image.png"]
+        images = ["images/photo_2025-10-22_18-51-26.jpg", "images/photo_2025-10-22_17-49-33.jpg"]
 
         for image in images:
             try:
@@ -23,7 +23,7 @@ class MainWindow(QWidget):
                     label = QLabel(self)
                     pixmap = QPixmap(image)
                     label.setPixmap(pixmap)
-                    if image == "images/profile_image.png":
+                    if image == "images/photo_2025-10-22_17-49-33.jpg":
                         label.move(80, 20)
             except FileNotFoundError as error:
                 print(f"Image not found.\nError: {error}")
